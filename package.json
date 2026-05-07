@@ -1,0 +1,19 @@
+{
+  "name": "ai-chat-streaming-tapovan",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "server": "node server/index.js",
+    "client": "vite --host 0.0.0.0 --port 5173 client"
+  },
+  "dependencies": {
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "express": "latest",
+    "dotenv": "latest",
+    "openai": "latest"
+  },
+  "devDependencies": {}
+}
